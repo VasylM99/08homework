@@ -19,7 +19,7 @@ class Students {
         if (this.marks === null) {
             return null;
         } else {
-            return this.marks.push(numbers);
+            return [...this.marks,number];
         }
     }
 
